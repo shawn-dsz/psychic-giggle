@@ -1,5 +1,16 @@
 ![Node.js CI](https://github.com/shawn-dsz/psychic-giggle/workflows/Node.js%20CI/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/760de50d-ef2e-4cde-b611-68aad3107d9f/deploy-status)](https://app.netlify.com/sites/psychic-giggle/deploys)
 
+This is a simple React App deployed with Netflify.
+## Purpose
+
+Create a template to deploy Static apps to netlify.
+
+## How it works
+
+NETLIFY_AUTH_TOKEN, NETLIFY_SITE_ID secrets are setup on this repo.
+
+Uses [Netlify deploy](https://github.com/jsmrcaga/action-netlify-deploy) Github action plugin to deploy.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
