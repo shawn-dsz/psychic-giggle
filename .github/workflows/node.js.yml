@@ -21,9 +21,11 @@ jobs:
           node-version: '12.x'
       - run: yarn
       - run: npm test
-      - run: yarn build --if-present
-      - name: 'Deploy to Netlify'
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - uses: jsmrcaga/action-netlify-deploy@v1.1.0
+      - run: yarn build --if-present
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
