@@ -20,8 +20,7 @@ jobs:
         with:
           node-version: '12.x'
       - run: yarn
-      - run: npm test
-      - uses: actions/checkout@v1
+      - run: yarn test
       - uses: jsmrcaga/action-netlify-deploy@master
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
