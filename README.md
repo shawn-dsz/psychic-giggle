@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/760de50d-ef2e-4cde-b611-68aad3107d9f/deploy-status)](https://app.netlify.com/sites/psychic-giggle/deploys)
+![Node.js CI](https://github.com/shawn-dsz/psychic-giggle/workflows/Node.js%20CI/badge.svg)[![Netlify Status](https://api.netlify.com/api/v1/badges/760de50d-ef2e-4cde-b611-68aad3107d9f/deploy-status)](https://app.netlify.com/sites/psychic-giggle/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
